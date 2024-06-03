@@ -188,10 +188,6 @@ header .info-text .scroll::before {
     color: #fff;
     text-decoration: none;
 }
-#contato button:hover {
-    background-color: #fff;
-    color: #2b2f4b;
-}
 .scroll-top {
     display: none;
     position: fixed;
