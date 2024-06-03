@@ -73,14 +73,12 @@ particlesJS("particles", {
     },
     retina_detect: true
 });
-
 function scrollToTop() {
     window.scrollTo({
         top: 0,
         behavior: 'smooth'
     });
 }
-
 window.addEventListener('scroll', function () {
     var scrollTopButton = document.querySelector('.scroll-top');
     if (this.window.pageYOffset > 200) {
@@ -89,7 +87,6 @@ window.addEventListener('scroll', function () {
         scrollTopButton.style.display = 'none';
     }
 });
-
 document.querySelector('#about .header a[href="#contact-form"]').addEventListener('click', function (e) {
     e.preventDefault();
     document.querySelector('#contact-form').scrollIntoView({
