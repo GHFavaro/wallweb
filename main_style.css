@@ -169,34 +169,12 @@ header .info-text .scroll::before {
     background-color: #2b2f4b;
     padding: 40px;
 }
-#contato form {
+#contato .buttons {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     gap: 20px;
-    max-width: 600px;
-    margin: 0 auto;
-}
-#contato form label {
-    display: flex;
-    flex-direction: column;
-    color: #fff;
-    font-size: 1.1rem;
-}
-#contato form input, #contato form textarea {
-    padding: 10px;
-    border-radius: 6px;
-    border: 1px solid #ccc;
-    background-color: #3a3f5a;
-    color: #fff;
-    font-size: 1rem;
-    resize: none;
 }
 #contato button {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    max-width: 600px;
-    margin: 0 auto;
     padding: 10px 20px;
     background-color: #2b2f4b;
     color: #fff;
@@ -206,14 +184,11 @@ header .info-text .scroll::before {
     cursor: pointer;
     transition: all 0.3s ease;
 }
-#contato button a{
-    background-color: #2b2f4b;
+#contato button a {
     color: #fff;
-    font-size: 1.2rem;
-    cursor: pointer;
     text-decoration: none;
 }
-#contato form button:hover {
+#contato button:hover {
     background-color: #fff;
     color: #2b2f4b;
 }
@@ -301,12 +276,12 @@ header .info-text .scroll::before {
     background-color: #fff;
     color: #2b2f4b;
 }
-footer{
-  background-color: #2b2f4b; 
+footer {
+    background-color: #2b2f4b;
 }
-footer p{
-  color: #fff; 
+footer p {
+    color: #fff;
 }
-footer a{
-  color: #fff; 
+footer a {
+    color: #fff;
 }
