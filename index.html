@@ -19,10 +19,22 @@
     <title>Wall Web | Esteja seguro!</title>
     <style>
         #newsletter-email {
-            width: 28.125rem;
+            width: 450px;
+            max-width: 100%;
+            box-sizing: border-box;
         }
-        #button-news{
-           width: 28.125rem; 
+        #button-news {
+            width: 450px;
+            max-width: 100%;
+            box-sizing: border-box;
+        }
+        @media (max-width: 600px) {
+            #newsletter-email {
+                width: 100%;
+            }
+             #button-news{
+                 width: 100%;
+             }
         }
     </style>
 </head>
