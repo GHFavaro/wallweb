@@ -13,7 +13,7 @@
 <url>
 <loc>https://wallweb.com.br/blog.html</loc>
 <lastmod>2024-06-03T23:11:42+00:00</lastmod>
-<priority>0.80</priority>
+<priority>1.00</priority>
 </url>
 <url>
 <loc>https://wallweb.com.br/politica-de-uso.html</loc>
@@ -21,8 +21,13 @@
 <priority>0.80</priority>
 </url>
 <url>
-<loc>https://wallweb.com.br/posts/blog_ticketmaster.html</loc>
+<loc>https://wallweb.com.br/posts/ataque-hacker-a-ticketmaster.html</loc>
 <lastmod>2024-06-03T23:11:42+00:00</lastmod>
-<priority>0.64</priority>
+<priority>1.00</priority>
+</url>
+<url>
+<loc>https://wallweb.com.br/posts/segurança-da-informação-para-empresas.html</loc>
+<lastmod>2024-06-03T23:11:42+00:00</lastmod>
+<priority>1.00</priority>
 </url>
 </urlset>
