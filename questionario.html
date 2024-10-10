@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-NPYM9224GX"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-NPYM9224GX');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="main_style.css">
+    <title>Questionário | Wall Web</title>
+    <meta name="description" content="Entre em contato com a Wall Web. Responda perguntas simples sobre segurança da informação e descubra como melhorar a proteção dos seus dados.">
+</head>
+
+<body>
+    <section id="contact-content">
+        <div class="container">
+            <h2>Agende uma conversa</h2>
+            <form id="contact-form"
+                action="https://formspree.io/f/xkndanvd"
+                method="POST">
+                <label>
+                    Seu Email*:
+                    <input type="email" name="email" required>
+                </label>
+                <h3>Perguntas de Segurança da Informação:</h3>
+    
+                <label>
+                    A sua empresa faz backup regularmente dos dados importantes?
+                    <input type="radio" name="backup" value="Sim" required> Sim
+                    <input type="radio" name="backup" value="Não" required> Não
+                </label>
+    
+                <label>
+                    As senhas dos sistemas da sua empresa são trocadas com frequência?
+                    <input type="radio" name="senha_trocada" value="Sim" required> Sim
+                    <input type="radio" name="senha_trocada" value="Não" required> Não
+                </label>
+    
+                <label>
+                    A sua empresa utiliza algum tipo de antivírus ou software de proteção contra malwares?
+                    <input type="radio" name="antivirus" value="Sim" required> Sim
+                    <input type="radio" name="antivirus" value="Não" required> Não
+                </label>
+    
+                <label>
+                    O acesso às informações da empresa é restrito a pessoas autorizadas?
+                    <input type="radio" name="acesso_restrito" value="Sim" required> Sim
+                    <input type="radio" name="acesso_restrito" value="Não" required> Não
+                </label>
+    
+                <label>
+                    A sua equipe já recebeu algum treinamento básico de segurança da informação?
+                    <input type="radio" name="treinamento" value="Sim" required> Sim
+                    <input type="radio" name="treinamento" value="Não" required> Não
+                </label>
+    
+                <label>
+                    A sua empresa já foi alvo de algum ataque cibernético ou tentativa de invasão?
+                    <input type="radio" name="ataque" value="Sim" required> Sim
+                    <input type="radio" name="ataque" value="Não" required> Não
+                </label>
+    
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>    
+
+    <footer>
+        <p>&copy; 2024 Wall Web. Todos os direitos reservados. <a href="politica-de-uso.html">Política de Uso</a></p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
