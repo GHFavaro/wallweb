@@ -277,10 +277,25 @@ section#features a{
 }
 footer {
     background-color: #2b2f4b;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
 }
 footer p {
     color: #fff;
 }
 footer a {
     color: #fff;
+}
+
+#contato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
 }
