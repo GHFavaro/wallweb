@@ -144,3 +144,27 @@ footer a {
 footer a:hover {
     text-decoration: underline;
 }
+
+#contato {
+    background-color: #2b2f4b;
+    padding: 40px;
+}
+#contato .buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+#contato button {
+    padding: 10px 20px;
+    background-color: #2b2f4b;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 6px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+#contato button a {
+    color: #fff;
+    text-decoration: none;
+}
