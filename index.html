@@ -61,10 +61,14 @@
                 <p>
                     Wall Web é uma prestadora de serviços que fornece soluções de segurança da informação. Desde 2022, temos nos dedicado a proteger dados e sistemas, garantindo a integridade, confidencialidade e disponibilidade das informações de nossos clientes.
                 </p>
+                <section id="contato">
+                    <div class="buttons">
+                        <button type="submit"><a href="questionario.html">Agende uma consulta gratuita!</a></button>
+                    </div>
+                </section>
             </div>
         </div>
     </section>
-
     <section id="features">
         <div class="header">
             <h1>Nossos Serviços</h1>
@@ -75,7 +79,7 @@
                     <i class='bx bxs-lock-alt'></i>
                     <h1>Consultoria de Segurança</h1>
                     <p>
-                        Oferecemos consultoria especializada para avaliar, planejar e implementar medidas de segurança cibernética personalizadas, garantindo a proteção contra ameaças emergentes.
+                        Oferecemos consultoria especializada para avaliar, planejar e implementar medidas de segurança cibernética personalizadas, garantindo a proteção contra ameaças emergentes. Escolhido por empresas de todos os portes
                     </p>
                 </div>
             </div>
@@ -102,18 +106,24 @@
 
     <section id="contato">
         <div class="buttons">
-            <button type="submit"><a href="fale-conosco.html">Entre em contato!</a></button>
-            <button type="submit"><a href="blog.html">Veja o nosso blog!</a></button>
+            <button type="submit"><a href="fale-conosco.html">Fale com nossos especialistas agora!</a></button>
+            <button type="submit"><a href="questionario.html">Agende uma consulta gratuita!</a></button>
         </div>
+        <section id="contato">
+            <div class="buttons">
+                <button type="submit"><a href="blog.html">Veja o nosso blog!</a></button>
+            </div>
+        </section>
         <br>
         <br>
         <br>
         <br>
         <form id="contact-form"
-                action="https://formspree.io/f/xkndanvd"
+                action="https://api.web3forms.com/submit"
                 method="POST">
+                <input type="hidden" name="access_key" value="e4ba122a-a981-4955-9b17-ee614b8fdbba">
                 <label>
-                    Inscreva-se em nosso newsletter colocando o seu email aqui!:
+                    Receba dicas exclusivas de segurança cibernética:
                     <input type="email" id="newsletter-email" name="email" required>
                 </label>
                 <button type="submit" id="button-news">Enviar</button>
