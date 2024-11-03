@@ -44,7 +44,7 @@
         <div id="particles"></div>
         <div class="info-text">
             <h1>Wall Web</h1>
-            <h3>Melhorando sua segurança desde 2022</h3>
+            <h3>Proteja os dados e sistemas da sua empresa com a Wall Web, a empresa mais atualizada</h3>
             <a href="#about" class="scroll"><i class='bx bxs-down-arrow'></i></a>
         </div>
     </header>
@@ -62,12 +62,48 @@
                 </p>
                 <section id="contato">
                     <div class="buttons">
-                        <button type="submit"><a href="questionario.html">Agende uma consulta gratuita!</a></button>
+                        <button type="submit"><a href="questionario.html">Faça uma consulta gratuita!</a></button>
                     </div>
                 </section>
             </div>
         </div>
     </section>
+    <section id="features">
+        <div class="header">
+            <h1>Nossos Resultados</h1>
+        </div>
+        <div class="feature-cards">
+            <div class="card">
+                <div class="info">
+                    <i class='bx bxs-bug-alt'></i>
+                    <h1>+1000</h1>
+                    <p>
+                        Vulnerabilidades identificadas, mapeadas e corrigidas através de nossas soluções de segurança
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="info">
+                    <i class='bx bxs-lock'></i>
+                    <h1>5x</h1>
+                    <p>
+                        Redução na quantidade de incidentes de segurança enfrentados por nossos clientes
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="info">
+                    <i class='bx bxs-bar-chart-alt-2'></i>
+                    <h1>115%</h1>
+                    <p>
+                        Aumento na eficiência e no andamento dos projetos após implementar nossas medidas de proteção
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
     <section id="features">
         <div class="header">
             <h1>Nossos Serviços</h1>
@@ -105,8 +141,7 @@
 
     <section id="contato">
         <div class="buttons">
-            <button type="submit"><a href="fale-conosco.html">Fale com nossos especialistas agora!</a></button>
-            <button type="submit"><a href="questionario.html">Agende uma consulta gratuita!</a></button>
+            <button type="submit"><a href="questionario.html">Faça uma consulta gratuita!</a></button>
         </div>
         <section id="contato">
             <div class="buttons">
@@ -117,16 +152,37 @@
         <br>
         <br>
         <br>
-        <form id="contact-form"
-                action="https://api.web3forms.com/submit"
-                method="POST">
-                <input type="hidden" name="access_key" value="e4ba122a-a981-4955-9b17-ee614b8fdbba">
-                <label>
-                    Receba dicas exclusivas de segurança cibernética:
-                    <input type="email" id="newsletter-email" name="email" required>
-                </label>
-                <button type="submit" id="button-news">Enviar</button>
-        </form>
+        <section id="contact-content">
+            <div class="container">
+                <h2>Entre em contato</h2>
+                <form id="contact-form"
+                    action="https://api.web3forms.com/submit"
+                    method="POST">
+                    <input type="hidden" name="access_key" value="e4ba122a-a981-4955-9b17-ee614b8fdbba">
+                    <label>
+                        Seu Nome*:
+                        <input type="text" name="name" required>
+                    </label>
+                    <label>
+                        Seu Email*:
+                        <input type="email" name="email" required>
+                    </label>
+                    <label>
+                        Empresa*:
+                        <input type="text" name="company" required>
+                    </label>
+                    <label>
+                        Seu telefone:
+                        <input type="number" name="appointment">
+                    </label>
+                    <label>
+                        Seu Recado*:
+                        <textarea name="message" required></textarea>
+                    </label>
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+        </section>
         <br>
         <br>
         <br>
